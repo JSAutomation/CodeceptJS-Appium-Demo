@@ -1,0 +1,27 @@
+{
+  "name": "CodeceptJS-Appium-Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSAutomation/CodeceptJS-Appium-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.3.0",
+    "webdriverio": "^7.19.3"
+  },
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^7.19.1"
+  },
+  "bugs": {
+    "url": "https://github.com/JSAutomation/CodeceptJS-Appium-Demo/issues"
+  },
+  "homepage": "https://github.com/JSAutomation/CodeceptJS-Appium-Demo#readme"
+}
