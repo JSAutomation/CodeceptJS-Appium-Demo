@@ -1,4 +1,6 @@
 const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
+const path = require("path");
+const directoryName = __dirname;
 
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
@@ -12,7 +14,7 @@ exports.config = {
   output: './output',
   helpers: {
     Appium: {
-      app: 'C:\\TestAutomation\\Appium\\calc.apk',
+      app: directoryName + '\\app\\calc.apk', // appium little tricky to get the relative path. So made small workaround. 
       platform: 'Android',
       device: 'emulator'
     }
